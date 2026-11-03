@@ -1,0 +1,32 @@
+{
+  "selected_model": "Logistic Regression",
+  "cross_validation_f1": 63.22,
+  "accuracy": 73.81,
+  "precision": 50.43,
+  "recall": 78.34,
+  "f1_score": 61.36,
+  "confusion_matrix": [
+    [
+      747,
+      288
+    ],
+    [
+      81,
+      293
+    ]
+  ],
+  "model_comparison": [
+    {
+      "model": "Random Forest",
+      "cross_validation_f1": 62.49
+    },
+    {
+      "model": "Logistic Regression",
+      "cross_validation_f1": 63.22
+    },
+    {
+      "model": "Gradient Boosting",
+      "cross_validation_f1": 58.1
+    }
+  ]
+}
